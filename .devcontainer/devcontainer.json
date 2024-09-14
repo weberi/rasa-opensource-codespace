@@ -10,7 +10,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"onCreateCommand": "pip install -U pip uv; uv venv; source .venv/bin/activate; uv pip install rasa=3.6.20",
+	"onCreateCommand": "pip install -U pip uv; uv venv; source .venv/bin/activate; uv pip install rasa==3.6.20",
 
 	// Configure tool-specific properties.
 	"customizations": {
