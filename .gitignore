@@ -1,5 +1,6 @@
 
 bot1/.rasa/
+weatherbotplus/.rasa/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
