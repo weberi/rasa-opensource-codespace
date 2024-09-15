@@ -1,7 +1,7 @@
 version: "3.1"
 
 stories:  
-- story: 1 
+- story: "1" 
   steps:
   - intent: inform_weather
     entities:
@@ -11,7 +11,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 2 
+- story: "2"
   steps:
   - intent: inform_weather
     entities:
@@ -21,7 +21,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 3 
+- story: "3" 
   steps:
   - intent: inform_weather
     entities:
@@ -31,7 +31,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 4
+- story: "4"
   steps:
   - intent: inform_weather
     entities:
@@ -41,7 +41,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 5
+- story: "5"
   steps:
   - intent: inform_weather
   - action: utter_ask_location
@@ -53,7 +53,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 6
+- story: "6"
   steps:
   - intent: inform_generally
     entities:
@@ -62,7 +62,7 @@ stories:
     - location: vilnius
   - action: action_generalinfo
 
-- story: 7
+- story: "7"
   steps:
   - intent: inform_generally
     entities:
@@ -71,7 +71,7 @@ stories:
     - location: italy
   - action: action_generalinfo
 
-- story: 8
+- story: "8"
   steps:
   - intent: inform_generally
     entities:
@@ -80,7 +80,7 @@ stories:
     - location: miami
   - action: action_generalinfo
 
-- story: 9
+- story: "9"
   steps:
   - intent: inform_generally
     entities:
@@ -89,7 +89,7 @@ stories:
     - location: fulda
   - action: action_generalinfo
 
-- story: 10
+- story: "10"
   steps:
   - intent: inform_generally
   - action: utter_ask_location
@@ -100,7 +100,7 @@ stories:
     - location: munich
   - action: action_generalinfo
 
-- story: 11
+- story: "11"
   steps:
   - intent: inform_weather
   - action: utter_ask_location
@@ -116,7 +116,7 @@ stories:
     - location: mumbai
   - action: action_generalinfo
 
-- story: 12
+- story: "12"
   steps:
   - intent: inform_weather 
   - action: utter_ask_location
@@ -132,7 +132,7 @@ stories:
     - location: amsterdam
   - action: action_generalinfo
 
-- story: 13
+- story: "13"
   steps:
   - intent: inform_generally
   - action: utter_ask_location
@@ -148,7 +148,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 14
+- story: "14"
   steps:
   - intent: inform_generally 
   - action: utter_ask_location
@@ -164,7 +164,7 @@ stories:
   - action: action_weather
   - action: utter_location
 
-- story: 15
+- story: "15"
   steps:
   - intent: inform_weather
     entities:
@@ -179,7 +179,7 @@ stories:
   - action: action_generalinfo
 
 
-- story: 16
+- story: "16"
   steps:
   - intent: inform_generally
     entities:
