@@ -1,3 +1,6 @@
+
+bot1/.rasa/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
