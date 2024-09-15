@@ -1,8 +1,6 @@
 # The config recipe.
 # https://rasa.com/docs/rasa/model-configuration/
 recipe: default.v1
-
-recipe: default.v1
 language: en
 
 pipeline:
