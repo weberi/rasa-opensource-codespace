@@ -16,8 +16,8 @@
 	"forwardPorts": [5005],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"onCreateCommand": "pip install -U pip uv; uv venv; source .venv/bin/activate; uv pip install rasa==3.6.20 spacy; ; python -m spacy download en_core_web_md;",
-
+	"onCreateCommand": "pip install -U pip uv; uv venv; source .venv/bin/activate; uv pip install rasa==3.6.20; uv pip install rasa[spacy];",
+	"postCreateCommand": "python -m spacy download en_core_web_md;",
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
