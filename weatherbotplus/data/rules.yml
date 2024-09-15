@@ -1,8 +1,6 @@
 version: "3.1"
 
 rules:
-
-rules:
 - rule: Greeting Rule
   steps:
   - intent: greet
