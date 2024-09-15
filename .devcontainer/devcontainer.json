@@ -13,7 +13,7 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [5005],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"onCreateCommand": "pip install -U pip uv; uv venv; source .venv/bin/activate; uv pip install rasa==3.6.20",
