@@ -12,7 +12,7 @@
 
 action_endpoint:
   # url: "http://localhost:5055/webhook"
-  url: "https://reimagined-space-fishstick-96xv9w6ggr2xrx5-1880.app.github.dev/actionserver"
+  url: "http://reimagined-space-fishstick-96xv9w6ggr2xrx5-1880.app.github.dev/actionserver"
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
