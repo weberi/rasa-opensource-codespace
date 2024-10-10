@@ -5,6 +5,7 @@ intents:
   - ask_hours
   - ask_location
   - ask_contact
+  - bot_challenge
 
 responses:
   utter_greet:
@@ -21,7 +22,6 @@ responses:
 
   utter_ask_contact:
     - text: "Sie können uns per E-Mail unter kontakt@musterfirma.de oder telefonisch unter 01234-56789 erreichen."
-
 
   utter_iamabot:
   - text: "Ich bin ein Bot, powered by Rasa."
