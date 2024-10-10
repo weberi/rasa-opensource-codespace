@@ -1,6 +1,7 @@
 
-bot1/.rasa/
+moodbot/.rasa/
 weatherbotplus/.rasa/
+testbot/.rasa/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
